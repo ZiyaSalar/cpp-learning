@@ -1,0 +1,8 @@
+a --> variable name
+&a --> adress of variable (a)
+*p --> pointer to a variable : it can store adress... 
+**p --> pointer to a pointer : it also store adress but of the variable which is already storing adress
+**p=&(*p);
+*p=&a;              
+                    string : (100)asdfasdf } char* p(500)-->100
+                                           } char** p(1300)-->500
